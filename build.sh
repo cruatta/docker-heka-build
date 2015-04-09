@@ -2,5 +2,5 @@
 cd /usr/src/heka/
 source build.sh
 make package
-cp /usr/src/heka/build/*rpm /output
-cp /usr/src/heka/build/*tgz /output
+make deb
+cp /usr/src/heka/build/heka*{rpm,tar.gz,deb} /output
