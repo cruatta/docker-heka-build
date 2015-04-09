@@ -3,7 +3,7 @@ MAINTAINER Cameron Ruatta
 
 ADD build.sh /build.sh
 RUN chmod +x /build.sh
-RUN rpm -Uvh http://209.132.181.24/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+RUN rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 RUN yum install -y git \
 	cmake \
 	gcc \
